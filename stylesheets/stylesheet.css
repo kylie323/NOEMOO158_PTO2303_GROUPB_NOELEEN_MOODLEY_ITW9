@@ -2,55 +2,65 @@
 header {
 }
 
-herotext {
+#herotext {
 }
 
-herotext h1 {
+#herotext h1 {
 }
 
-herotext p {
+#herotext p {
 }
 
-herolinks {
+#herolinks {
 }
 
 /* 2. Education, Qualifications and Certification */
-education {
+#education {
 }
 
-education h2 {
+#education h2 {
 }
 
-education h3 {
+#education h3 {
 }
 
-education p {
+#education p {
 }
 
 /* 3. Skills Content */
 
-skills {
+#skills {
 
 }
 
-skills h2{
+#skills h2{
 
 }
 
-skills h3 {
+#skills h3 {
 
 }
 
-skills ul {
+#skills ul {
 
 }
 
-skills li {
+#skills li {
 
 }
 
 /*Footer Content */ 
 
 footer {
-    
+
+}
+
+/* 4. Contact Links*/
+
+#contactlinks {
+
+}
+
+.socials {
+
 }
