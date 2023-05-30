@@ -1,37 +1,50 @@
 /* 1. Hero Section */
 header {
-
 }
 
-herotext{
-    
+herotext {
 }
 
 herotext h1 {
-    
 }
 
 herotext p {
-    
 }
 
 herolinks {
-
 }
 
 /* 2. Education, Qualifications and Certification */
 education {
-
 }
 
 education h2 {
-
 }
 
 education h3 {
-
 }
 
 education p {
+}
+
+/* 3. Skills Content */
+
+skills {
+
+}
+
+skills h2{
+
+}
+
+skills h3 {
+
+}
+
+skills ul {
+
+}
+
+skills li {
 
 }
