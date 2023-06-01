@@ -1,3 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 6. Nav Bar */
+
+nav {
+  background-color: rgb(228, 255, 228);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  height: 70px;
+}
+
+.logo {
+  height:auto;
+  width:150px;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0;
+  padding:70px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
 /* 1. Hero Section */
 header {
 }
@@ -30,53 +68,70 @@ header {
 /* 3. Skills Content */
 
 #skills {
-
 }
 
-#skills h2{
-
+#skills h2 {
 }
 
 #skills h3 {
-
 }
 
 #skills ul {
-
 }
 
 #skills li {
-
 }
 
-/*Footer Content */ 
+/*Footer Content */
 
 footer {
-
 }
 
 /* 4. Contact Links*/
 
 #contactlinks {
-
 }
 
 .socials {
-
 }
 
 /* 5. Form */
 
 form {
-
 }
 
 form h3 {
-
 }
 
-/* 6. Nav Bar */
+@media screen and (max-width: 480px) {
+  
+  nav {
+    height: 50px;
+  }
+  
+  .logo {
+    height:auto;
+    width:80px;
+  }
+  
+  nav ul li {
+    font-size: 10px;
+    padding:30px;
+  }
+}
 
-nav {
-    
+@media screen and (max-width:1024px) {
+  nav {
+    height: 50px;
+  }
+  
+  .logo {
+    height:auto;
+    width:80px;
+  }
+  
+  nav ul li {
+    font-size: 10px;
+    padding:10px;
+  }
 }
