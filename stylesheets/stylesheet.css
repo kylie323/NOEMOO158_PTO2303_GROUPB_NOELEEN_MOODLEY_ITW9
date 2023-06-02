@@ -145,7 +145,7 @@ nav ul li {
 }
 
 .photoshop {
-  background-color: #E5BEEC;
+  background-color: #e5beec;
   width: 15%;
   height: 25px;
   text-align: center;
@@ -155,7 +155,7 @@ nav ul li {
 }
 
 .illustrator {
-  background-color: #E5BEEC;
+  background-color: #e5beec;
   width: 25%;
   height: 25px;
   text-align: center;
@@ -165,7 +165,7 @@ nav ul li {
 }
 
 .aftereffects {
-  background-color: #E5BEEC;
+  background-color: #e5beec;
   width: 20%;
   height: 25px;
   text-align: center;
@@ -175,7 +175,7 @@ nav ul li {
 }
 
 .PL {
-  background-color: #E5BEEC;
+  background-color: #e5beec;
   width: 12%;
   height: 25px;
   text-align: center;
@@ -218,7 +218,21 @@ input[type="email"] {
   padding: 10px 10px;
   box-sizing: border-box;
   border: 1px solid white;
-  color: #917fb3;
+  color: ;
+}
+
+/* Gallery */
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.image {
+  padding: 20px;
+  padding-top:60px;
 }
 
 /* 4. Contact Links*/
