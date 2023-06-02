@@ -218,7 +218,7 @@ input[type="email"] {
   padding: 10px 10px;
   box-sizing: border-box;
   border: 1px solid white;
-  color: ;
+  color:#917fb3;
 }
 
 /* Gallery */
@@ -239,9 +239,9 @@ input[type="email"] {
 
 .socials {
   padding: 30px;
+  height: auto;
+  width:40px;
 }
-
-/* 5. Form */
 
 /* Mobile Device */
 
@@ -266,7 +266,7 @@ input[type="email"] {
 
   footer {
     padding-left: 70px;
-    height: 100px;
+    height: 110px;
   }
 
   .herotext {
@@ -294,6 +294,12 @@ input[type="email"] {
     width: 60%;
     animation-name: expand;
     animation-duration: 5s;
+  }
+
+  .socials {
+    padding:3px;
+    height: auto;
+    width:20px;
   }
 }
 
@@ -323,4 +329,20 @@ input[type="email"] {
   footer {
     justify-content: center;
   }
+
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: flex-start;
+  }
+  
+  .image {
+    padding: 10px;
+  }
+  .socials {
+    padding:10px;
+    height: auto;
+    width:40px;
+  }git
 }
