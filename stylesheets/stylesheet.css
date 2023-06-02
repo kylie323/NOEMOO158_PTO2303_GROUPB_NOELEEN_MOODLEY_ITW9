@@ -13,6 +13,7 @@ h1 {
 h2 {
   font-size: 50px;
   padding: 10px;
+  color:#aec670
 }
 
 h3 {
@@ -36,9 +37,9 @@ nav {
   background-color: #aec670;
   display: flex;
   flex-wrap: wrap;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
   width: 100%;
   padding: 15px;
   height: 70px;
@@ -91,6 +92,7 @@ nav ul li {
 
 /* 2. Education, Qualifications and Certification */
 #education {
+  padding-top: 90px;
 }
 
 #education p {
@@ -99,7 +101,7 @@ nav ul li {
 /* 3. Skills Content */
 
 #skills {
-  padding-top: 30px;
+  padding-top: 90px;
 }
 
 #skills ul {
@@ -148,6 +150,11 @@ margin: 10px 0;
   margin: 10px 0;
 }
 
+.gallery {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  } 
 /*Footer Content */
 
 footer {
