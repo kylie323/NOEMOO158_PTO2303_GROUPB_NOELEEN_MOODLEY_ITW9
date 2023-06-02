@@ -266,7 +266,7 @@ input[type="email"] {
 
   footer {
     padding-left: 70px;
-    height: 110px;
+    height: 150px;
   }
 
   .herotext {
@@ -300,6 +300,10 @@ input[type="email"] {
     padding:3px;
     height: auto;
     width:20px;
+  }
+  #contactlinks {
+    padding:0;
+    margin: 0;
   }
 }
 
@@ -344,5 +348,5 @@ input[type="email"] {
     padding:10px;
     height: auto;
     width:40px;
-  }git
+  }
 }
