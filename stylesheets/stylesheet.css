@@ -6,14 +6,16 @@
 
 h1 {
   font-size: 60px;
-  padding: 60px;
-  padding-bottom: 20px;
+  padding: 10px;
+  padding-bottom: 15px;
+  padding-top:200px;
+  color: #2A2F4F;
 }
 
 h2 {
   font-size: 50px;
   padding: 10px;
-  color: #aec670;
+  color:#2A2F4F
 }
 
 h3 {
@@ -27,21 +29,30 @@ p {
 }
 
 a {
-  color: white;
   text-decoration: none;
+  color: white;
+}
+#content {
+  padding-left: 25px;
 }
 
+/* Animation */
+
 @keyframes expand {
-  0% { width: 0; }
-  100% { width: 50%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
 }
 
 .line {
-  height:5px;
-  width:50%;
-  border-bottom: #aec670 solid 2px;
+  height: 5px;
+  width: 50%;
+  border-bottom: #917FB3 solid 2px;
   margin: 10px;
-  color: #aec670;
+  color: #917FB3;
   animation-name: expand;
   animation-duration: 5s;
 }
@@ -49,7 +60,7 @@ a {
 /* 6. Nav Bar */
 
 nav {
-  background-color: #aec670;
+  background-color: #917FB3;
   display: flex;
   flex-wrap: wrap;
   position: fixed;
@@ -81,36 +92,36 @@ nav ul li {
 }
 
 /* 1. Hero Section */
-
-.links {
-  padding-left: 60px;
-  padding-top: 5px;
-}
-
-#banner {
-  height: 500px;
-  background-color: #d0eaac;
-}
-
-.herotext {
-  color: white;
+.hero {
+  background: url("https://images.pexels.com/photos/9175736/pexels-photo-9175736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repat(auto-fit, minmax(300px, 1fr));
+  color: #2A2F4F;
   padding-top: 150px;
 }
 
-.herotext p {
-  padding-left: 60px;
-  font-size: large;
+.hero a {
+  padding-top: 10px;
+  color:#2A2F4F
 }
 
-#herolinks {
+.linkedin {
+  padding-left: 10px;
+}
+
+.hero p {
+  padding-left: 10px;
+  font-size: large;
+  color: #2A2F4F;
 }
 
 /* 2. Education, Qualifications and Certification */
 #education {
   padding-top: 90px;
-}
-
-#education p {
 }
 
 /* 3. Skills Content */
@@ -126,7 +137,7 @@ nav ul li {
 }
 
 .photoshop {
-  background-color: #aec670;
+  background-color: #2A2F4F;
   width: 15%;
   height: 25px;
   text-align: center;
@@ -136,7 +147,7 @@ nav ul li {
 }
 
 .illustrator {
-  background-color: #aec670;
+  background-color:#2A2F4F;
   width: 25%;
   height: 25px;
   text-align: center;
@@ -146,7 +157,7 @@ nav ul li {
 }
 
 .aftereffects {
-  background-color: #aec670;
+  background-color: #2A2F4F;
   width: 20%;
   height: 25px;
   text-align: center;
@@ -156,7 +167,7 @@ nav ul li {
 }
 
 .PL {
-  background-color: #aec670;
+  background-color: #2A2F4F;
   width: 12%;
   height: 25px;
   text-align: center;
@@ -165,21 +176,10 @@ nav ul li {
   margin: 10px 0;
 }
 
-
-.gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-evenly;
-  justify-items: center;
-  align-content: space-evenly;
-  align-items: center;
-  width: fit-content%;
-}
-
 /*Footer Content */
 
 footer {
-  background-color: #aec670;
+  background-color: #917FB3;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -192,7 +192,7 @@ footer {
 button {
   background-color: white;
   border: 1px solid white;
-  color: #aec670;
+  color: #917FB3;
   padding: 10px 10px;
   text-decoration: none;
   margin: 4px 2px;
@@ -203,20 +203,17 @@ input[type="text"] {
   padding: 10px 10px;
   box-sizing: border-box;
   border: 1px solid white;
-  color: #aec670;
+  color: #917FB3;
 }
 
 input[type="email"] {
   padding: 10px 10px;
   box-sizing: border-box;
   border: 1px solid white;
-  color: #aec670;
+  color: #917FB3;
 }
 
 /* 4. Contact Links*/
-
-#contactlinks {
-}
 
 .socials {
   padding: 30px;
@@ -224,21 +221,20 @@ input[type="email"] {
 
 /* 5. Form */
 
-form {
-}
-
-form h3 {
-}
+/* Mobile Device */
 
 @media screen and (max-width: 480px) {
   nav {
     height: 50px;
-    width: 95%;
+    width: 90%;
   }
 
   .logo {
     height: auto;
-    width: 80px;
+    width: 75px;
+  }
+
+  nav ul {
   }
 
   nav ul li {
@@ -264,21 +260,27 @@ form h3 {
   }
 
   @keyframes expand {
-    0% { width: 0; }
-    100% { width: 60%; }
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60%;
+    }
   }
-  
+
   .line {
-    width:60%;
+    width: 60%;
     animation-name: expand;
     animation-duration: 5s;
   }
 }
 
+/* Tablet Device */
+
 @media screen and (max-width: 1024px) {
   nav {
     height: 50px;
-    width: 97%;
+    width: 100%;
   }
 
   .logo {
@@ -289,6 +291,7 @@ form h3 {
   nav ul li {
     font-size: 10px;
     padding: 10px;
+    padding-right: 50px;
   }
 
   .herotext {
