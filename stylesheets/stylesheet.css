@@ -5,7 +5,7 @@
 }
 
 h1 {
-  font-size:60px;
+  font-size: 60px;
   padding: 60px;
   padding-bottom: 20px;
 }
@@ -38,9 +38,11 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
   padding: 15px;
   height: 70px;
-  border-bottom: solid white 10px;
+  border-bottom: solid white 5px;
   text-decoration: none;
 }
 
@@ -64,26 +66,25 @@ nav ul li {
 
 /* 1. Hero Section */
 
-.links{
+.links {
   padding-left: 60px;
   padding-top: 5px;
 }
 
-#banner{
+#banner {
   height: 500px;
   background-color: #d0eaac;
 }
 
 .herotext {
   color: white;
-  padding-top:150px;
+  padding-top: 150px;
 }
 
 .herotext p {
   padding-left: 60px;
   font-size: large;
 }
-
 
 #herolinks {
 }
@@ -94,7 +95,6 @@ nav ul li {
 
 #education p {
 }
-
 
 /* 3. Skills Content */
 
@@ -108,7 +108,44 @@ nav ul li {
   padding-left: 30px;
 }
 
-#skills li {
+.photoshop{
+background-color: #aec670;
+width: 15%;
+height:25px;
+text-align: center;
+line-height: 25px;
+color: white;
+margin: 10px 0;
+}
+
+.illustrator {
+  background-color: #aec670;
+  width: 25%;
+  height:25px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  margin: 10px 0;
+}
+
+.aftereffects{
+  background-color: #aec670;
+  width: 20%;
+  height:25px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  margin: 10px 0;
+}
+
+.PL {
+  background-color: #aec670;
+  width: 12%;
+  height:25px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  margin: 10px 0;
 }
 
 /*Footer Content */
@@ -122,6 +159,30 @@ footer {
   padding: 15px;
   margin-top: 60px;
   height: 70px;
+}
+
+button { 
+  background-color: white;
+  border: 1px solid white;
+  color: #aec670;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text] {
+padding: 10px 10px;
+box-sizing: border-box;
+border: 1px solid white;
+color: #aec670;
+}
+
+input[type=email] {
+padding: 10px 10px;
+box-sizing: border-box;
+border: 1px solid white;
+color: #aec670;
 }
 
 /* 4. Contact Links*/
@@ -144,6 +205,7 @@ form h3 {
 @media screen and (max-width: 480px) {
   nav {
     height: 50px;
+    width: 95%;
   }
 
   .logo {
@@ -153,22 +215,31 @@ form h3 {
 
   nav ul li {
     font-size: 10px;
-    padding: 30px;
+    padding:30px;
   }
 
   footer {
-    padding-left:70px;
+    padding-left: 70px;
+    height: 100px;
   }
 
   .herotext {
-    padding-top:80px;
+    padding-top: 80px;
   }
 
+ #contactlinks{
+    padding-bottom: 10px;
+  }
+
+  button {
+   margin-left:160px; 
+  }
 }
 
 @media screen and (max-width: 1024px) {
   nav {
     height: 50px;
+    width: 97%;
   }
 
   .logo {
@@ -182,6 +253,11 @@ form h3 {
   }
 
   .herotext {
-    padding-top:80px;
+    padding-top: 80px;
+  }
+
+  footer {
+   justify-content: center;
   }
 }
+
