@@ -8,29 +8,35 @@ h1 {
   font-size: 60px;
   padding: 10px;
   padding-bottom: 15px;
-  padding-top:200px;
-  color: #2A2F4F;
+  padding-top: 200px;
+  color: #2a2f4f;
 }
 
 h2 {
   font-size: 50px;
   padding: 10px;
-  color:#2A2F4F
+  color: #2a2f4f;
 }
 
 h3 {
   font-size: medium;
   padding: 10px;
+  color: #2a2f4f;
 }
 
 p {
   padding-left: 10px;
   padding-top: 3px;
+  color: #2a2f4f;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+li {
+  color: #2a2f4f;
 }
 #content {
   padding-left: 25px;
@@ -50,9 +56,9 @@ a {
 .line {
   height: 5px;
   width: 50%;
-  border-bottom: #917FB3 solid 2px;
+  border-bottom: #917fb3 solid 2px;
   margin: 10px;
-  color: #917FB3;
+  color: #917fb3;
   animation-name: expand;
   animation-duration: 5s;
 }
@@ -60,7 +66,7 @@ a {
 /* 6. Nav Bar */
 
 nav {
-  background-color: #917FB3;
+  background-color: #917fb3;
   display: flex;
   flex-wrap: wrap;
   position: fixed;
@@ -93,20 +99,21 @@ nav ul li {
 
 /* 1. Hero Section */
 .hero {
-  background: url("https://images.pexels.com/photos/9175736/pexels-photo-9175736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+  background: url("https://images.pexels.com/photos/11859363/pexels-photo-11859363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
     center;
   background-size: cover;
   padding: 4rem 2rem;
   display: grid;
   align-items: center;
   grid-template-columns: repat(auto-fit, minmax(300px, 1fr));
-  color: #2A2F4F;
+  color: #2a2f4f;
   padding-top: 150px;
 }
 
 .hero a {
   padding-top: 10px;
-  color:#2A2F4F
+  color: #2a2f4f;
+  font-size: 20px;
 }
 
 .linkedin {
@@ -116,7 +123,8 @@ nav ul li {
 .hero p {
   padding-left: 10px;
   font-size: large;
-  color: #2A2F4F;
+  color: #2a2f4f;
+  font-size: 20px;
 }
 
 /* 2. Education, Qualifications and Certification */
@@ -137,7 +145,7 @@ nav ul li {
 }
 
 .photoshop {
-  background-color: #2A2F4F;
+  background-color: #E5BEEC;
   width: 15%;
   height: 25px;
   text-align: center;
@@ -147,7 +155,7 @@ nav ul li {
 }
 
 .illustrator {
-  background-color:#2A2F4F;
+  background-color: #E5BEEC;
   width: 25%;
   height: 25px;
   text-align: center;
@@ -157,7 +165,7 @@ nav ul li {
 }
 
 .aftereffects {
-  background-color: #2A2F4F;
+  background-color: #E5BEEC;
   width: 20%;
   height: 25px;
   text-align: center;
@@ -167,7 +175,7 @@ nav ul li {
 }
 
 .PL {
-  background-color: #2A2F4F;
+  background-color: #E5BEEC;
   width: 12%;
   height: 25px;
   text-align: center;
@@ -179,7 +187,7 @@ nav ul li {
 /*Footer Content */
 
 footer {
-  background-color: #917FB3;
+  background-color: #917fb3;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -192,7 +200,7 @@ footer {
 button {
   background-color: white;
   border: 1px solid white;
-  color: #917FB3;
+  color: #917fb3;
   padding: 10px 10px;
   text-decoration: none;
   margin: 4px 2px;
@@ -203,14 +211,14 @@ input[type="text"] {
   padding: 10px 10px;
   box-sizing: border-box;
   border: 1px solid white;
-  color: #917FB3;
+  color: #917fb3;
 }
 
 input[type="email"] {
   padding: 10px 10px;
   box-sizing: border-box;
   border: 1px solid white;
-  color: #917FB3;
+  color: #917fb3;
 }
 
 /* 4. Contact Links*/
